@@ -6,15 +6,21 @@
 ---
 
 ## Overview
-This project demonstrates an **end-to-end RAG pipeline** that integrates:
-- **ChromaDB** for semantic vector search and metadata filtering  
-- **Sentence Transformers** for dense embeddings  
-- **IBM watsonx.ai Granite LLM** for conversational recommendations  
+This repository demonstrates an **end-to-end GenAI-powered recommendation system** that integrates **vector similarity search** with **large language model reasoning** to provide **contextual**, **personalized food recommendations**.
 
-Although applied here to **food & nutrition**, the architecture is **domain-agnostic** and can be adapted to areas like **healthcare, e-commerce, or knowledge management**.
+The system combines:
+
+- **Vector databases (ChromaDB)** for similarity search and metadata filtering
+
+- **Sentence Transformers** for semantic embeddings
+
+- **IBM watsonx.ai Granite LLM** for natural language understanding and conversational responses
+
+- **RAG pipeline** that grounds LLM outputs with structured food data
+
+While the application domain here is food & nutrition, the architecture is **domain-agnostic** and can be directly adapted to other verticals such as **healthcare**, **e-commerce**, or **knowledge management**
 
 ---
-
 ## Features
 - Vector similarity search over structured JSON data (ingredients, calories, taste profiles)  
 - Retrieval-Augmented Generation (LLM responses grounded in retrieved context)  
