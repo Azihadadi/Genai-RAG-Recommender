@@ -74,7 +74,3 @@ python enhanced_rag_chatbot.py
 - Sentence Transformers (all-MiniLM-L6-v2)
 - Numpy / Scipy
   ---
-
-## Contact
-- GitHub: [Azadeh Hadadi](https://github.com/Azihadadi)
-- LinkedIn: _[َAzadeh Hadadi](https://www.linkedin.com/in/azadeh-hadadi/)_   
