@@ -72,5 +72,5 @@ python enhanced_rag_chatbot.py
 - IBM watsonx.ai Granite Instruct Models
 - ChromaDB (cosine similarity, HNSW)
 - Sentence Transformers (all-MiniLM-L6-v2)
-- Numpy / Scipy
-  ---
+- Numpy/ Scipy
+---
